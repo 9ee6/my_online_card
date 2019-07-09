@@ -1,0 +1,76 @@
+#my_artboard {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #b2f3f3;
+  /* background-image: url(./img/home.jpg); */
+  background-repeat: no-repeat;
+  /* min-width: 100vw; */
+  background-position: 25%;
+}
+#main_section {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 25px;
+}
+
+h2,
+p,
+h3 {
+}
+.white_section {
+  color: blue;
+}
+.red_section {
+  color: #6495ed;
+}
+section {
+  background-color: #b2f3f3;
+
+  margin: 20px 30px;
+  padding: 20px 40px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border: 2px;
+  border-radius: 6px;
+}
+article {
+  background-color: rgb(216, 216, 216);
+  width: 500px;
+  margin: 20px 30px;
+  padding: 20px 40px;
+  font-family: "Roboto", sans-serif;
+  border: 2px;
+  border-radius: 6px;
+}
+footer {
+  background-color: rgb(255, 255, 255);
+  margin: 20px 30px;
+  width: 500px;
+  padding: 20px 40px;
+  font-family: sans-serif;
+  border: 2px;
+  border-radius: 6px;
+}
+#profil {
+  transform: rotate(360deg);
+}
+.bg_control {
+  background-color: blue;
+  width: 30px;
+}
+
+footer a {
+  color: white;
+}
+.navbar {
+  max-width: 500px;
+}
+
+.img-car {
+  width: 500px;
+}
