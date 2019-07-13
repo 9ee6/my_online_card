@@ -1,0 +1,150 @@
+body {
+  background-color: #b2f3f3;
+}
+#my_artboard {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #b2f3f3;
+  /* background-image: url(./img/home.jpg); */
+  background-repeat: no-repeat;
+  /* min-width: 100vw; */
+  background-position: 25%;
+}
+#main_section {
+  display: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 45px;
+  margin-left: 67px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  margin: 0px;
+}
+
+h2 {
+  text-align: center;
+  font-family: -sans-serif -apple-system;
+}
+
+h3 {
+  font-family: -apple-system;
+}
+
+#name h3 {
+  text-align: center;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 67px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: left;
+}
+
+.white_section {
+  color: black;
+}
+.red_section {
+  color: #6495ed;
+}
+section {
+  background-color: #b2f3f3;
+  align-content: space-between;
+  margin: 20px 30px;
+  padding: 20px 40px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border: 2px;
+  border-radius: 10px;
+}
+article {
+  background-color: #b2f3f3;
+  width: 500px;
+  margin: 20px 30px;
+  padding: 20px 40px;
+  font-family: "Roboto", sans-serif;
+  border: 2px;
+  border-radius: 10px;
+  align-content: space-between;
+}
+
+main#artboard_background {
+  background-color: #b2f3f3;
+}
+
+#container_footer {
+  display: flex;
+  justify-content: space-around;
+  width: 20vw;
+  background-color: #b2f3f3;
+}
+#profil {
+  margin: auto;
+  padding-top: 25px;
+  width: 300px;
+  display: block;
+}
+.bg_control {
+  background-color: blue;
+  width: 30px;
+}
+
+.img-car {
+  width: 500px;
+}
+
+#my_carousel {
+  margin: 0px;
+  border-radius: 10px;
+}
+
+.carousel-item.active img {
+  border-radius: 10px;
+}
+#intro {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#name {
+  flex-direction: column;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #b2f3f3;
+  position: fixed;
+  x/*position: fixed;  Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 2;
+  margin-bottom: 100px;
+}
+
+.nav-link:hover {
+  background-color: transparent;
+}
+
+section {
+  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* ----- FOOTER -------- */
+
+footer a {
+  color: #b2f3f3;
+}
+
+footer {
+  padding: 20px 40px;
+  font-family: sans-serif;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
